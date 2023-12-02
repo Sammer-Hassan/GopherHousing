@@ -1,0 +1,68 @@
+{
+  "name": "dormreviewui",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.2.0",
+    "@fortawesome/free-brands-svg-icons": "^6.2.0",
+    "@fortawesome/free-regular-svg-icons": "^6.2.0",
+    "@fortawesome/free-solid-svg-icons": "^6.2.0",
+    "@fortawesome/vue-fontawesome": "^3.0.1",
+    "@vuelidate/core": "^2.0.0",
+    "@vuelidate/validators": "^2.0.0",
+    "async": "^3.2.4",
+    "axios": "^0.27.2",
+    "axios-retry": "^3.3.1",
+    "bootstrap": "^5.2.1",
+    "bootstrap-vue-3": "^0.3.3",
+    "core-js": "^3.8.3",
+    "dateformat": "^5.0.3",
+    "hover.css": "^2.3.2",
+    "vue": "^3.2.13",
+    "vue-client-recaptcha": "^1.0.5",
+    "vue-recaptcha": "^2.0.3",
+    "vue-recaptcha-v3": "^2.0.1",
+    "vue-router": "^4.1.5",
+    "vue-star-rating": "^2.1.0",
+    "vue3-carousel": "^0.2.0",
+    "vue3-star-ratings": "^1.1.0",
+    "vueperslides": "^3.5.1",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true,
+      "es6": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "ecmaVersion": 12,
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "not ie 11"
+  ]
+}
